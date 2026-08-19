@@ -1,7 +1,14 @@
 //
 //Q1- Input your name, age, roll_no branch, percentage of marks and display.
 
-#include <stdio.h>
+#include <stdio.h> //stdio: Stands for Standard Input Output.
+// <stdio.h> Provides
+
+// I/O Functions: printf(), scanf(), getchar(), putchar(), puts(), fgets().
+
+// File Handling: fopen(), fclose(), fread(), fwrite(), fprintf().
+
+// System Constants & Types: NULL, EOF (End of File), and the FILE data structure.
 
 int main() {
     char name[50], branch[50];
