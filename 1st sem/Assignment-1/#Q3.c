@@ -1,10 +1,10 @@
-//Q3- Input principal rate of intrest and time period and calculate simple intrest?
+//3.Input principal, rate of interest, and time period, and calculate simple interest, compound interest, and total amount to pay in both the cases?
 
 #include <stdio.h>
 #include <math.h> 
-//math.h is standard in C use for higher precision calculation like roots, power, etc.
+//math.h is standard in C use for higher precision calculations like roots, power, etc.
 //Here we can use float, as float can handle 6-7 decimal digits as it works for 32-bit, but double is a standard way when working with complex math because it has 15-17 decimal digits for precision in 64 bit.
-//lf is long float. %f reads into 4 bytes, and lf reads 8 bytes just like double, and there is another long double which reads 10-16 bytes.
+//lf is long float. %f reads into 4 bytes, and lf reads 8 bytes, just like double, and there is another, long double, which reads 10-16 bytes.
 int main() {
     double principal, rate, time;
     double si, total_si, ci, total_ci;
