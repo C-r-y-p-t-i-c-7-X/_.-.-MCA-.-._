@@ -1,4 +1,4 @@
-//Input length breadth, height, of a cube and find it's surface area & volume
+//Input length, breadth, height, of a cube and find its surface area & volume
 
 
 #include <stdio.h>
