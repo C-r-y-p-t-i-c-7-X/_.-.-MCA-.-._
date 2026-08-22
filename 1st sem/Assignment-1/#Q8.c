@@ -26,3 +26,18 @@ int main() {
 
     return 0;
 }
+
+
+/*
+Output:-
+--------------------
+Enter unit price and quantity for Object 1: 1000
+5000
+Enter unit price and quantity for Object 2: 2500 
+1000
+Enter unit price and quantity for Object 3: 3500
+2000
+
+Total Price = 14500000.00
+
+    */
