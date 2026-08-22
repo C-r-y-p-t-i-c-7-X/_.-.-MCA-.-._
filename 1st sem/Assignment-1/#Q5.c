@@ -18,3 +18,12 @@ int main() {
     printf("Area     : %.2f\n", area);
     return 0;
 }
+
+/*
+Output:-
+--------------------
+Enter radius of the circle: 11
+Perimeter: 66.00
+Area     : 363.00
+
+    */
