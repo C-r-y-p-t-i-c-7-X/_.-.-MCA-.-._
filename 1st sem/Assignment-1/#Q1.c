@@ -41,4 +41,22 @@ int main() {
     return 0;
 }
 
+/*
+Output:-
+--------------------
 
+
+Enter Name: madhav
+Enter Age: 21
+Enter Roll No: 111
+Enter Branch: MCA
+Enter Percentage of Marks: 60
+
+--- Student Details ---
+Name       : madhav
+Age        : 21
+Roll No    : 111
+Branch     : MCA
+Percentage : 60.00%
+
+*/
