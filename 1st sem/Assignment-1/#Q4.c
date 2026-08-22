@@ -19,4 +19,11 @@ int main() {
     return 0;
 }
 
+/*
+Output:-
+--------------------
+Enter length, breadth, and height: 20 30 40
+Surface Area : 5200.00
+Volume       : 24000.00
 
+    */
