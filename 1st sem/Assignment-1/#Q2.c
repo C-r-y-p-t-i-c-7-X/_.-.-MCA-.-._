@@ -21,3 +21,16 @@ int main() {
 
     return 0;
 }
+
+/*
+Output:-
+--------------------
+
+Enter two numbers: 22 77
+Addition       : 99
+Subtraction    : -55
+Multiplication : 1694
+Division       : 0.29
+Remainder      : 22
+
+*/
