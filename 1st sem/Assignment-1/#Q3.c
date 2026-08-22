@@ -34,4 +34,20 @@ int main() {
 
     return 0;
 }
+/*
+Output:-
+--------------------
 
+Enter Principal amount: 100000
+Enter Rate of interest (in %): 12
+Enter Time period (in years): 5
+
+--- Simple Interest Calculation ---
+Simple Interest     : 60000.00
+Total Amount to Pay : 160000.00
+
+--- Compound Interest Calculation ---
+Compound Interest   : 76234.17
+Total Amount to Pay : 176234.17
+
+    */
