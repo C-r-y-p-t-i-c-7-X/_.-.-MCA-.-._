@@ -1,10 +1,4 @@
-// Q1. Check Whether a Number is Positive, Negative, or Zero
-/*
-Output:-
---------------------
-
-    */
-
+// // Q1. WAP a to check whether a number is positive, negative or zero.
 // #include <stdio.h>
 
 // int main() {
@@ -29,8 +23,8 @@ Output:-
 // Enter a number: -25
 // -25 is Negative
 //     */
-
-// // Q2. Find Maximum Between Two Numbers
+// ---------------------------------------------------------------------------------------------------------------------------------------------
+// // Q2.WAP a to find maximum between two numbers.
 // #include <stdio.h>
 
 // int main() {
@@ -55,8 +49,8 @@ Output:-
 // Enter two numbers: 32 74
 // Maximum is: 74
 //     */
-
-// // Q3. Find Maximum Between Three Numbers
+// ---------------------------------------------------------------------------------------------------------------------------------------------
+// // Q3.WAP a to find maximum between three numbers.
 // #include <stdio.h>
 
 // int main() {
@@ -81,7 +75,8 @@ Output:-
 // Enter three numbers: 53 39 99
 // Maximum is: 99
 //     */
-// // Q4. Check Whether a Number is Divisible by 7 and 14
+// ---------------------------------------------------------------------------------------------------------------------------------------------
+// // Q4.WAP a to check whether a number is divisible by 7 and 14 or not.
 // #include <stdio.h>
 
 // int main() {
@@ -104,8 +99,8 @@ Output:-
 // Enter a number: 7
 // 7 is not divisible by both 7 and 14
 //     */
-
-// // Q5. Factorial of a Given Number Using goto
+// ---------------------------------------------------------------------------------------------------------------------------------------------
+// // Q5.Write a C Program to print factorial of given number using goto.
 // #include <stdio.h>
 
 // int main() {
@@ -136,94 +131,96 @@ Output:-
 // Enter a number: 11
 // Factorial of 11 = 39916800
 //     */
+// ---------------------------------------------------------------------------------------------------------------------------------------------
+// // Q6.Write a C program to check whether a number is even or odd using goto statement.
+// #include <stdio.h>
 
-// Q6. Check Even or Odd Using goto
-#include <stdio.h>
+// int main() {
+//     int num;
 
-int main() {
-    int num;
+//     printf("Enter a number: ");
+//     scanf("%d", &num);
 
-    printf("Enter a number: ");
-    scanf("%d", &num);
+//     if (num % 2 == 0) {
+//         goto even_block;
+//     } else {
+//         goto odd_block;
+//     }
 
-    if (num % 2 == 0) {
-        goto even_block;
-    } else {
-        goto odd_block;
-    }
+// even_block:
+//     printf("%d is Even\n", num);
+//     return 0;
 
-even_block:
-    printf("%d is Even\n", num);
-    return 0;
+// odd_block:
+//     printf("%d is Odd\n", num);
+//     return 0;
+// }
+// /*
+// Output:-
+// --------------------
+// Enter a number: 11
+// 11 is Odd
+//     */
+// // ---------------------------------------------------------------------------------------------------------------------------------------------
+// // Q7.Write a C program to print numbers from 1 to 10 using goto statement.
+// #include <stdio.h>
 
-odd_block:
-    printf("%d is Odd\n", num);
-    return 0;
-}
-/*
-Output:-
---------------------
-Enter a number: 11
-11 is Odd
-    */
+// int main() {
+//     int i = 1;
 
-// Q7. Print Numbers from 1 to 10 Using goto
-#include <stdio.h>
+// print_loop:
+//     if (i <= 10) {
+//         printf("%d ", i);
+//         i++;
+//         goto print_loop;
+//     }
+//     printf("\n");
 
-int main() {
-    int i = 1;
+//     return 0;
+// }
+// /*
+// Output:-
+// --------------------
+// 1 2 3 4 5 6 7 8 9 10 
+//     */
+// // ---------------------------------------------------------------------------------------------------------------------------------------------
+// // Q8.Write a C program to print 10's table of a number using goto.
+// #include <stdio.h>
 
-print_loop:
-    if (i <= 10) {
-        printf("%d ", i);
-        i++;
-        goto print_loop;
-    }
-    printf("\n");
+// int main() {
+//     int num, i = 1;
 
-    return 0;
-}
-/*
-Output:-
---------------------
-1 2 3 4 5 6 7 8 9 10 
-    */
-// Q8. Print Multiplication Table of a Number (up to 10) Using goto
-#include <stdio.h>
+//     printf("Enter a number: ");
+//     scanf("%d", &num);
 
-int main() {
-    int num, i = 1;
+//     printf("Table of %d:\n", num);
+// table_loop:
+//     if (i <= 10) {
+//         printf("%d x %d = %d\n", num, i, num * i);
+//         i++;
+//         goto table_loop;
+//     }
 
-    printf("Enter a number: ");
-    scanf("%d", &num);
-
-    printf("Table of %d:\n", num);
-table_loop:
-    if (i <= 10) {
-        printf("%d x %d = %d\n", num, i, num * i);
-        i++;
-        goto table_loop;
-    }
-
-    return 0;
-}
-/*
-Output:-
---------------------
-Enter a number: 11
-Table of 11:
-11 x 1 = 11
-11 x 2 = 22
-11 x 3 = 33
-11 x 4 = 44
-11 x 5 = 55
-11 x 6 = 66
-11 x 7 = 77
-11 x 8 = 88
-11 x 9 = 99
-11 x 10 = 110
-    */
-// // Q9. Find Sum of 10 Numbers Using goto
+//     return 0;
+// }
+// /*
+// Output:-
+// --------------------
+// Enter a number: 11
+// Table of 11:
+// 11 x 1 = 11
+// 11 x 2 = 22
+// 11 x 3 = 33
+// 11 x 4 = 44
+// 11 x 5 = 55
+// 11 x 6 = 66
+// 11 x 7 = 77
+// 11 x 8 = 88
+// 11 x 9 = 99
+// 11 x 10 = 110
+//     */
+// // ---------------------------------------------------------------------------------------------------------------------------------------------
+// // Q9.Find sum of 10 numbers using goto.
 // #include <stdio.h>
 
 // int main() {
@@ -257,7 +254,8 @@ Table of 11:
 
 // Total Sum = 610
 //     */
-// // Q10. Find Maximum Value of 10 Inputted Numbers Using goto
+// // ---------------------------------------------------------------------------------------------------------------------------------------------
+// // Q10.Find maximum value  of 10 inputted numbers using goto.
 // #include <stdio.h>
 
 // int main() {
@@ -299,7 +297,8 @@ Table of 11:
 
 // Maximum Value = 111
 //     */
-// // Q11. Find Minimum Value of 10 Inputted Numbers Using goto
+// // ---------------------------------------------------------------------------------------------------------------------------------------------
+// // Q11.Find minimum value  of 10  inputted numbers using goto.
 // #include <stdio.h>
 
 // int main() {
